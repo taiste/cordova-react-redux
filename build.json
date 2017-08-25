@@ -1,0 +1,14 @@
+{
+  "ios": {
+    "debug": {
+      "developmentTeam": "Y93MMA35M8",
+      "codeSignIdentity": "iPhone Developer",
+      "packageType": "ad-hoc"
+    },
+    "release": {
+      "developmentTeam": "Y93MMA35M8",
+      "codeSignIdentity": "iPhone Developer",
+      "packageType": "ad-hoc"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+node_modules
+*.log
+*.tmp
+*.tmp.*
+.DS_Store
+
+platforms
+
+plugins
+
+#
+www/bundle.js
+
+# res
+resources/signing

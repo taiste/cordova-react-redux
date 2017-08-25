@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1000000" id="com.taiste.example" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Example</name>
+    <description>
+    Example application.
+  </description>
+    <author email="taisteoy@taiste.fi">
+    Taiste
+  </author>
+    <content src="index.html" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-installLocation" value="auto" />
+    <platform name="android">
+    </platform>
+    <platform name="ios">
+    </platform>
+    <platform name="wp8">
+    </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <splash density="port-hdpi" src="res/screen/android/screen-hdpi-portrait.png" />
+        <splash density="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
+        <splash density="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
+        <splash density="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <allow-navigation href="http://*/*" />
+        <config-file parent="UIAppFonts" platform="ios" target="*-Info.plist">
+            <array>
+                <string>Roboto-Black.ttf</string>
+                <string>Roboto-BlackItalic.ttf</string>
+                <string>Roboto-Bold.ttf</string>
+                <string>Roboto-BoldItalic.ttf</string>
+                <string>Roboto-Italic.ttf</string>
+                <string>Roboto-Light.ttf</string>
+                <string>Roboto-LightItalic.ttf</string>
+                <string>Roboto-Medium.ttf</string>
+                <string>Roboto-MediumItalic.ttf</string>
+                <string>Roboto-Regular.ttf</string>
+                <string>Roboto-Thin.ttf</string>
+                <string>Roboto-ThinItalic.ttf</string>
+            </array>
+        </config-file>
+    </platform>
+</widget>
